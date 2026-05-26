@@ -5,6 +5,8 @@ This repository contains code and resources for automating assessment processes 
 
 # Mastering RICE FACT Effective Prompting
 
+![RICE FACT](./images/rice-fact.png)
+
 **Instrustion** only
 
 ```
