@@ -101,10 +101,10 @@ Tone        →
 Role        →
 Instruction → Generate 10 dummy customer records as below
 Context     →
-Example     →
+Example     → CustID, CustName, Email, Mobile, Address
 Format      →
 Action      →
-Constraint  → CustID, CustName, Email, Mobile, Address
+Constraint  →
 Tone        →
 ```
 
