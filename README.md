@@ -77,7 +77,17 @@ To open the following AI tools in a **NEW** browser tab, hold `CTRL` (or `CMD` o
 
 # Mastering RICE FACT Effective Prompting
 
+RICE FACT is a useful framework to help you structure your prompts effectively when using AI tools. It stands for Role, Instruction, Context, Example, Format, Action, Constraint, and Tone. By incorporating these components into your prompts, you can guide the AI to generate more accurate and relevant responses.
+
+There are other prompting frameworks such as **ICIO** (Instruction, Context, Input, Output), **SCQA** (Situation, Complication, Question, Answer) and **STAR** (Situation, Task, Action, Result), they all have their own advantages and disadvantages. RICE FACT is more comprehensive and flexible, allowing you to include various elements in your prompts to achieve better results.
+
+**Beginner Pitfall**: AI beiginner users tend to use simple Instruction-only prompts, which often lead to vague and irrelevant responses. By adding more prompt components such as Role, Context, Example, Format, Action, Constraint, and Tone, you can significantly improve the quality of the AI's responses.
+
 ![RICE FACT](./images/rice-fact.png)
+
+**Tips 1**: You can just click the copy button to replicate the prompt in your AI ssistant. It's OKAY to include the RICE FACT tags in your prompt.  
+**Tips 2**: In your furture prompting, You DON'T actually have to specifically add these tags in your prompts. They are just there to help you better understand the prompt structure.  
+**Tips 3**: It's NOT common to include all RICE FACT components in a single prompt.
 
 **Instrustion** only
 
@@ -199,6 +209,178 @@ Context     →
 Example     → CustID, CustName, Email, Mobile, Address
 Format      →
 Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+# Assessments Design with RICE FACT
+
+![](./images/ai-powered-assessment-design.png)
+
+**Instruction** only  
+Prompt Quality: ZERO star
+
+```
+Role        →
+Instruction → Make a quiz
+Context     →
+Example     →
+Format      →
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** only  
+Prompt Quality: \*
+
+```
+Role        →
+Instruction → Make a quiz about factorization
+Context     →
+Example     →
+Format      →
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Format**  
+Prompt Quality: \*\*
+
+```
+Role        →
+Instruction → Make a quiz about factorization
+Context     →
+Example     →
+Format      → Make outputs in plain texts.
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Context** + **Format**  
+Prompt Quality: \*\*\*
+
+```
+Role        →
+Instruction → Make a quiz about factorization
+Context     → The targets are secondary three students.
+Example     →
+Format      → Make outputs in plain texts.
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Context** + **Format** + **Action**  
+Prompt Quality: \*\*\*\*
+
+```
+Role        →
+Instruction → Make a quiz about factorization
+Context     → The targets are secondary three students.
+Example     →
+Format      → Make outputs in plain texts.
+Action      → Produce 5 M.C. and 3 short questions.
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Context** + **Format** + **Action**  
+Prompt Quality: \*\*\*\*\*
+
+```
+Role        → You are a HK secondary math tutor.
+Instruction → Make a quiz about factorization
+Context     → The targets are secondary three students.
+Example     →
+Format      → Make outputs in plain texts.
+Action      → Produce 5 M.C. and 3 short questions.
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Context**  
+Prompt Quality: \*\*\*\*\*
+
+Referring to EDB Docs **KS3-NA01-1** learning objective, design a quiz about factorization for secondary three students.
+
+[Download EDB KS3 Competency Descriptors](/docs/KS3%20Math%20BC_Nov_2020_%20EN.pdf)
+
+```
+Role        →
+Instruction → Produce 5 M.C.
+Context     → based on HKEDB KS3-NA01-1 learning objective.
+Example     →
+Format      →
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Context**  
+Prompt Quality: \*\*\*\*\*
+
+Referring to EDB Docs **KS3-NA08-1** learning objective
+
+[Download EDB KS3 Competency Descriptors](/docs/KS3%20Math%20BC_Nov_2020_%20EN.pdf)
+
+```
+Role        →
+Instruction → Produce 5 M.C.
+Context     → based on HKEDB KS3-NA08-1 learning objective.
+Example     →
+Format      →
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Context**  
+Prompt Quality: \*\*\*\*\*
+
+```
+Role        →
+Instruction → Produce 5 M.C.
+Context     → based on HKEDB KS3-MSS22 and KS3-MSS23
+Example     →
+Format      →
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Context**  
+Prompt Quality: \*\*\*\*\*
+
+```
+Role        →
+Instruction → Produce 5 M.C.
+Context     → based on HKEDB KS3-MSS22 and KS3-MSS23
+Example     →
+Format      →
+Action      → Make it in Traditional Chinese.
 Constraint  →
 Tone        →
 ```
