@@ -9,7 +9,7 @@ This repository contains code and resources for automating assessment processes 
 
 [Sunny Ng](https://training.imagenation.com.hk/#sunny-ng)  
 **Founder / Master Trainer** at [Image Nation](https://training.imagenation.com.hk)  
-**Part-time Lecturer** at HKU, HKUSPACE, EdUHK  
+**Part-time Lecturer** at HKU Business School, HKU School of Chinese, HKUSPACE, EdUHK  
 **Email**: sunny.ng@imagenation.com.hk
 
 # Useful Keyboard Shortcuts
@@ -43,10 +43,9 @@ To open the following AI tools in a **NEW** browser tab, hold `CTRL` (or `CMD` o
 - [LMArena](https://lmarena.ai) - Compare and explore different large language models.
 - [Notion AI](https://www.notion.com) - Note-taking and productivity app with AI features.
 - [Canva](https://www.canva.com) - Graphic design platform with AI-powered tools. Great for PowerPoint Generation.
-- [desmos](https://www.desmos.com/) - Graphing calculator with AI features for mathematics education.
 - [Google Classroom](https://classroom.google.com) - AI-powered learning management system for educators and students.
 
-# Other Popular AI Tools
+# More on Popular AI Tools
 
 - [Microsoft 365 Copilot](https://m365.cloud.microsoft/) - AI assistant integrated into Microsoft 365 apps.
 - [ElevenLabs](https://elevenlabs.io) - AI-powered text-to-speech platform.
@@ -61,11 +60,16 @@ To open the following AI tools in a **NEW** browser tab, hold `CTRL` (or `CMD` o
 - [ideogram](https://ideogram.ai/) - AI-powered image generation platform.
 - [ Napkin AI](https://www.napkin.ai/) - The visual AI for business storytelling.
 
-# Other Tech Tools
+# Other Tech Tools for Teaching & Learning
 
 - [Google Sites](https://sites.google.com/) - Free website builder by Google, great for creating a class website or portfolio.
 - [DILLINGER](https://dillinger.io/) - Online Markdown playground/editor.
 - [Pandoc](https://pandoc.org/index.html) - Universal document converter that can convert between various formats, including Markdown, HTML, PDF, and more.
+
+# Graphs and Charts Tools
+
+- [desmos](https://www.desmos.com/) - Graphing calculator with AI features for mathematics education.
+- [GeoGebra](https://www.geogebra.org/) - Dynamic mathematics software for geometry, algebra, and calculus education.
 
 # Other Resources
 
@@ -386,3 +390,49 @@ Tone        →
 ```
 
 ---
+
+# AI Generated Graphs / Charts / Diagrams
+
+![](./images/graphs.png)
+
+```
+generate a diagram to represent y = x + 1
+```
+
+![](./images/simple-graph.png)
+
+**Note**: AI is not always right. The graph is NOT perfect. The x-axis and y-axis are not in the same scale.
+
+---
+
+```
+generate a diagram to represent y = x + 1
+add two sample points on the graph
+```
+
+![](./images/simple-graph-with-points.png)
+
+---
+
+```
+Generate a diagram to represent y = x + 1
+I am using the graph in test paper and therefore hide details that give hints to answer.
+```
+
+![](./images/simple-graph-clean.png)
+
+# Get Inspirations from AI
+
+Use the following prompts to gain some ideas on how to prompts AI assistant for graphing and charting in mathematics education.
+
+```
+Show me some sample prompts to generate graph or charts or diagram for mathematics assessment such as assignments, test paper and exam.  Target audience are secondary three students in Hong Kong. The graph or charts or diagram should be related to the learning objectives in EDB KS3 curriculum.
+```
+
+# Generate Graphs with Desmos
+
+![](https://www.desmos.com/assets/build/homepage-notebook-EUFHNP63.svg)
+
+Desmos is a powerful graphing calculator that can be used to create graphs for mathematics assessments. You can use Desmos to generate graphs for various mathematical functions and equations, and then export them as images to include in your test papers or assignments.
+
+#
