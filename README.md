@@ -391,9 +391,42 @@ Tone        →
 
 ---
 
+**Prompt with uploaded samples assessment**
+
+- Download a sample exercise paper. Hold CTRL key and click the link -> [Math EXE](https://math-exe.com/s3).
+- Pick one of the exercise papers that you like.
+- Start a **NEW** conversation with your AI assistant.
+- Upload the sample exercise paper to your AI assistant and prompt it to
+
+```
+Generate a similar exercise paper based on the uploaded sample.  Targets Hong Kong secondary three students.
+```
+
+---
+
+**Prompt it to generate a Word format document**
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Word_2013-2019_logo.svg/960px-Microsoft_Word_2013-2019_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" alt="MS Word" width="100"/>
+
+```
+Create a Word format document that I can donwload and make further edits.
+```
+
+---
+
+**Prompt to generate a PDF format document**  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1920px-PDF_file_icon.svg.png" alt="PDF" width="100"/>
+
+```
+Create a PDF format document that I can download and print directly.
+```
+
 # AI Generated Graphs / Charts / Diagrams
 
 ![](./images/graphs.png)
+AI generated graphs are not always perfect, but they can be a good starting point for creating visual representations of mathematical concepts. You can use AI tools to generate graphs based on specific prompts, and then edit or refine them as needed.
+
+---
 
 ```
 generate a diagram to represent y = x + 1
@@ -435,4 +468,69 @@ Show me some sample prompts to generate graph or charts or diagram for mathemati
 
 Desmos is a powerful graphing calculator that can be used to create graphs for mathematics assessments. You can use Desmos to generate graphs for various mathematical functions and equations, and then export them as images to include in your test papers or assignments.
 
-#
+`CTRL`+Click to open Desmos in a new browser tab → [Desmos Graphing Calculator](https://www.desmos.com/calculator).
+
+---
+
+**Creating Your Graph**  
+Pasting the **LaTex** codes to Desmos item cells.
+![](https://help.desmos.com/hc/article_attachments/25309493245325)
+
+---
+
+**Exporting Your Graph**  
+After creating your graph, you can click on the "Share" button and select **Export Image** to download the graph as a PNG file. You can then insert this image into your test paper or assignment document.  
+![](./images/desmos-export.png)
+
+---
+
+# Auto Making / Grading
+
+AI can also be used to automate the process of creating and grading assessments. You can use AI tools to generate questions, create answer keys, and even grade student responses. This can save you a lot of time and effort, allowing you to focus more on teaching and less on administrative tasks.
+
+**Create Interactive Quiz**
+
+This is is doable in **Gemini** and **Copilot** and a few other AI tools. You can create interactive quizzes where students can input their answers and receive immediate feedback. This can be a great way to engage students and provide them with instant feedback on their understanding of the material.
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0s4OiTzV-zHYF5ThDACYt2cfk1LOgoYrGgpiT9egtNtUULOrJHJhyphenhyphenLVh3oWX3uLzXgX7qi5wT1F9N6OYkqjl8Ce7ZSJhYAfVaxoMxU2n24t3DTFt4lnERy0GEG0mh0b_lnhgFnThaP0bAmHy5KH_tg4Mfu2xv1fzJIbp5a8JnSx39ToCUsBZpiT3m2-k/s1296/qn2.gif)
+
+**Creating Sample Gemini Quiz**  
+In Gemini, start a new chat and put in the following prompts.
+
+```
+Create a quiz for Hong Kong Secondary three students. Make 5 mathematics M.C. based on KS3-MSS22 and KS3-MSS23 learning objectives.
+```
+
+```
+Create a quiz for Hong Kong Secondary three students. Make 5 mathematics M.C., 3 true/false questions  based on KS3-MSS22 and KS3-MSS23 learning objectives.
+```
+
+```
+Create a quiz for Hong Kong Secondary three students. Make 5 mathematics M.C., 3 true/false questions and three short questions based on KS3-MSS22 and KS3-MSS23 learning objectives.
+```
+
+# Using Gemini in Google Classroom
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png" alt="Google Classroom" width="100"/>
+
+You can also use Google Classroom to create quizzes and export as Google Forms Quiz.
+![Google Glassroom Gemini](https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/Gemini-tab-in-Google-Classroom.gif?quality=90&strip=all&crop=0,0,100,100)
+
+---
+
+**Creating Google Form Quiz in Google Classroom**
+
+1. Go to → [Google Classroom](https://classroom.google.com)
+1. In Google Classroom, choose **Gemini** page
+1. Choose **Generate a quiz** from the tools menu
+1. Input `9` for **Target grade** and `10` for **number of questions**
+1. Put in prompts `Create a quiz for Hong Kong Secondary three students based on KS3-MSS22 and KS3-MSS23 learning objectives.`
+1. Choose **ALL** question types
+1. Choose **Generate questions**
+1. Click **Export** button and choose **Export to Forms**
+1. Choose **View Google Form** to edit/manage the quiz in Google Forms
+
+---
+
+**Google Forms Quiz Grading & Response Analysis**
+In google forms, you can view the responses and do some basic analysis. You can also export the responses to Google Sheets for further analysis.
