@@ -484,6 +484,20 @@ After creating your graph, you can click on the "Share" button and select **Expo
 
 ---
 
+# AI Generated Interactive Contents
+
+Gemini Canvas is a powerful tool that allows you to create interactive content for your assessments. You can use it to create interactive quizzes, diagrams, and other visual aids that can enhance the learning experience for your students.
+
+![](https://lh3.googleusercontent.com/MCgfNmfyCHmJL0WMZNL4zvT_G9hAUkholUT7dAe4flw5pf6P0Jgz_tOUdaEulyeT5xWPoJxd7TwNDa_wY-VJzBPglTWWy0Asrvs=e365-pa-nu-s0)
+
+Here is an pre generated canvas interactive learning tool for student to explore Pytagorean theorem → [Pythaorean Playground](https://gemini.google.com/share/c6d61e7bb523)
+
+It's pre-generated with the following prompt:
+
+```
+Greate a playground for student to explore Pythagorean theorem
+```
+
 # Auto Making / Grading
 
 AI can also be used to automate the process of creating and grading assessments. You can use AI tools to generate questions, create answer keys, and even grade student responses. This can save you a lot of time and effort, allowing you to focus more on teaching and less on administrative tasks.
