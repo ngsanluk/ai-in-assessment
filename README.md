@@ -467,7 +467,7 @@ Show me some sample prompts to generate graph or charts or diagram for mathemati
 ---
 
 ```
-Show me some 10 samples prompts to generate codes that run on Google colab for the purpose of creating various graphs and charts secondary school assessment design.
+Show me 10 example prompts that instruct AI to generate python codes that run on Google colab to generate various graphs and charts for the purpose of secondary school mathematics assessment design.
 ```
 
 ---
@@ -483,6 +483,10 @@ Write Python code for Google Colab to plot a coordinate grid spanning from -10 t
 ```
 
 ![](./images/colab.png)
+
+Besides colab, you can also use Juyputer Playground to quick-test run your python codes.
+
+Click here to → [Try Jupyter](https://jupyter.org/try)
 
 ---
 
