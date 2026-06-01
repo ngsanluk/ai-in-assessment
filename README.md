@@ -458,9 +458,33 @@ I am using the graph in test paper and therefore hide details that give hints to
 
 Use the following prompts to gain some ideas on how to prompts AI assistant for graphing and charting in mathematics education.
 
+---
+
 ```
 Show me some sample prompts to generate graph or charts or diagram for mathematics assessment such as assignments, test paper and exam.  Target audience are secondary three students in Hong Kong. The graph or charts or diagram should be related to the learning objectives in EDB KS3 curriculum.
 ```
+
+---
+
+```
+Show me some 10 samples prompts to generate codes that run on Google colab for the purpose of creating various graphs and charts secondary school assessment design.
+```
+
+---
+
+# Generate Graphs with Google Colab
+
+A sample prompt to generate Python codes that can run on Google Colab to create graphs and charts for mathematics assessments.
+
+---
+
+```
+Write Python code for Google Colab to plot a coordinate grid spanning from -10 to 10 on both the x and y axes. Graph the linear equations y = 2x - 3 and y = -0.5x + 2. Make sure the x and y axes intersect at (0,0) with bold black lines and arrows, standard 1-unit step grid lines are visible, and the intersection point is clearly marked with a coordinate point label for a simultaneous equations problem.
+```
+
+![](./images/colab.png)
+
+---
 
 # Generate Graphs with Desmos
 
