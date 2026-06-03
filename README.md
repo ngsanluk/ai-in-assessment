@@ -10,7 +10,7 @@ This repository contains code and resources for automating assessment processes 
 [Sunny Ng](https://training.imagenation.com.hk/#sunny-ng)  
 **Founder / Master Trainer** at [Image Nation](https://training.imagenation.com.hk)  
 **Part-time Lecturer** at HKU Business School, HKU School of Chinese, HKUSPACE, EdUHK  
-**Email**: sunny.ng@imagenation.com.hk
+**Email**: sunny.ng@imagenation.com.hk or sunnyng@eduhk.hk
 
 # Useful Keyboard Shortcuts
 
