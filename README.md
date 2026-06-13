@@ -5,7 +5,7 @@ This repository contains code and resources for automating assessment processes 
 
 # Hello! My name is Sunny 🌞
 
-<img src="./images/sunny-ng.png" alt="Sunny Ng" width="150"/>
+![](./images/sunny-ng.png)
 
 [Sunny Ng](https://training.imagenation.com.hk/#sunny-ng)  
 **Founder / Master Trainer** at [Image Nation](https://training.imagenation.com.hk)  
