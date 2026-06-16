@@ -19,8 +19,8 @@ This repository contains code and resources for automating assessment processes 
 | Keyboard Shortcut | Description                                         |
 | ----------------- | --------------------------------------------------- |
 | `SHIFT` + `ENTER` | Move cursor to next line without sending out prompt |
-| `CTRL` + Click    | Open a link in a NEW browser tab                    |
-| `ALT` + `=`       | Insert / Edit LaTex                                 |
+| `CTRL` + Click    | Open a link in a new browser tab                    |
+| `ALT` + `=`       | Insert / Edit LaTeX                                 |
 | `CTRL` + `Z`      | Undo last action                                    |
 | `CTRL` + `C`      | Copy selected text                                  |
 | `CTRL` + `V`      | Paste copied text                                   |
@@ -35,7 +35,7 @@ To open the following AI tools in a **NEW** browser tab, hold `CTRL` (or `CMD` o
 
 - [Gemini](https://gemini.google.com) - Google Gemini is a powerful, multimodal large language model developed by Google that can understand and process a wide range of information, including text, images, canvas (apps),audio, and video.
 - [Perplexity](https://www.perplexity.ai) - AI search engine that provides concise answers with sources.
-- [Microsoft Copilot](https://copilot.microsoft.com/) - Free Microsoft AI assisant.
+- [Microsoft Copilot](https://copilot.microsoft.com/) - Free Microsoft AI assistant.
 - [Grok](https://grok.com) - AI tool for generating text and code.
 - [Poe](https://poe.com) - Platform to access multiple AI models in one place.
 - [Qwen](https://chat.qwen.ai) - Conversational AI for various tasks
@@ -75,11 +75,11 @@ To open the following AI tools in a **NEW** browser tab, hold `CTRL` (or `CMD` o
 
 # Other Resources
 
-- [Basic Compentency Descriptor for KS3 Mathematics](./docs/KS3%20Math%20BC_Nov_2020_%20EN.pdf) - Education Bureau's curriculum documents for secondary mathematics education in Hong Kong.
+- [Basic Competency Descriptor for KS3 Mathematics](./docs/KS3%20Math%20BC_Nov_2020_%20EN.pdf) - Education Bureau's curriculum documents for secondary mathematics education in Hong Kong.
 - [EDB Assessment for Learning](https://www.edb.gov.hk/en/curriculum-development/assessment/about-assessment/assessment-for-learning.html) - Education Bureau's resources on assessment for learning in Hong Kong.
 - [EDB Curriculum Docs](https://www.edb.gov.hk/en/curriculum-development/kla/ma/curr/index2.html) - Curriculum documents for secondary mathematics education in Hong Kong.
 - [Math EXE](https://math-exe.com/) - Math exercise FREE PDF download website.
-- [Markdown & LaTex Quick Start](https://ashki23.github.io/markdown-latex.html)
+- [Markdown & LaTeX Quick Start](https://ashki23.github.io/markdown-latex.html)
 
 # Mastering RICE FACT Effective Prompting
 
@@ -87,15 +87,15 @@ RICE FACT is a useful framework to help you structure your prompts effectively w
 
 There are other prompting frameworks such as **ICIO** (Instruction, Context, Input, Output), **SCQA** (Situation, Complication, Question, Answer) and **STAR** (Situation, Task, Action, Result), they all have their own advantages and disadvantages. RICE FACT is more comprehensive and flexible, allowing you to include various elements in your prompts to achieve better results.
 
-**Beginner Pitfall**: AI beiginner users tend to use simple Instruction-only prompts, which often lead to vague and irrelevant responses. By adding more prompt components such as Role, Context, Example, Format, Action, Constraint, and Tone, you can significantly improve the quality of the AI's responses.
+**Beginner Pitfall**: AI beginner users tend to use simple Instruction-only prompts, which often lead to vague and irrelevant responses. By adding more prompt components such as Role, Context, Example, Format, Action, Constraint, and Tone, you can significantly improve the quality of the AI's responses.
 
 ![RICE FACT](./images/rice-fact.png)
 
 **Tips 1**: You can just click the copy button to replicate the prompt in your AI ssistant. It's OKAY to include the RICE FACT tags in your prompt.  
-**Tips 2**: In your furture prompting, You DON'T actually have to specifically add these tags in your prompts. They are just there to help you better understand the prompt structure.  
+**Tips 2**: In your future prompting, You DON'T actually have to specifically add these tags in your prompts. They are just there to help you better understand the prompt structure.  
 **Tips 3**: It's NOT common to include all RICE FACT components in a single prompt.
 
-**Instrustion** only
+**Instruction** only
 
 ```
 Role        →
@@ -411,7 +411,7 @@ Generate a similar exercise paper based on the uploaded sample.  Targets Hong Ko
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Word_2013-2019_logo.svg/960px-Microsoft_Word_2013-2019_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" alt="MS Word" width="100"/>
 
 ```
-Create a Word format document that I can donwload and make further edits.
+Create a Word format document that I can download and make further edits.
 ```
 
 ---
@@ -486,7 +486,7 @@ Write Python code for Google Colab to plot a coordinate grid spanning from -10 t
 
 ![](./images/colab.png)
 
-Besides colab, you can also use Juyputer Playground to quick-test run your python codes.
+Besides colab, you can also use Jupyter Playground to quick-test run your python codes.
 
 Click here to → [Try Jupyter](https://jupyter.org/try)
 
@@ -503,7 +503,7 @@ Desmos is a powerful graphing calculator that can be used to create graphs for m
 ---
 
 **Creating Your Graph**  
-Pasting the **LaTex** codes to Desmos item cells.
+Pasting the **LaTeX** codes to Desmos item cells.
 ![](https://help.desmos.com/hc/article_attachments/25309493245325)
 
 ---
@@ -520,7 +520,7 @@ Gemini Canvas is a powerful tool that allows you to create interactive content f
 
 ![](./images/canvas-sample.png)
 
-Here is an pre generated canvas interactive learning tool for student to explore Pytagorean theorem → [Pythaorean Playground](https://gemini.google.com/share/c6d61e7bb523)
+Here is an pre generated canvas interactive learning tool for student to explore Pythagorean theorem → [Pythaorean Playground](https://gemini.google.com/share/c6d61e7bb523)
 
 It's pre-generated with the following prompt:
 
@@ -534,7 +534,7 @@ AI can also be used to automate the process of creating and grading assessments.
 
 **Create Interactive Quiz**
 
-This is is doable in **Gemini** and **Copilot** and a few other AI tools. You can create interactive quizzes where students can input their answers and receive immediate feedback. This can be a great way to engage students and provide them with instant feedback on their understanding of the material.
+This is doable in **Gemini** and **Copilot** and a few other AI tools. You can create interactive quizzes where students can input their answers and receive immediate feedback. This can be a great way to engage students and provide them with instant feedback on their understanding of the material.
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0s4OiTzV-zHYF5ThDACYt2cfk1LOgoYrGgpiT9egtNtUULOrJHJhyphenhyphenLVh3oWX3uLzXgX7qi5wT1F9N6OYkqjl8Ce7ZSJhYAfVaxoMxU2n24t3DTFt4lnERy0GEG0mh0b_lnhgFnThaP0bAmHy5KH_tg4Mfu2xv1fzJIbp5a8JnSx39ToCUsBZpiT3m2-k/s1296/qn2.gif)
 
@@ -558,7 +558,7 @@ Create a quiz for Hong Kong Secondary three students. Make 5 mathematics M.C., 3
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png" alt="Google Classroom" width="100"/>
 
 You can also use Google Classroom to create quizzes and export as Google Forms Quiz.
-![Google Glassroom Gemini](https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/Gemini-tab-in-Google-Classroom.gif?quality=90&strip=all&crop=0,0,100,100)
+![Google Classroom Gemini](https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/Gemini-tab-in-Google-Classroom.gif?quality=90&strip=all&crop=0,0,100,100)
 
 ---
 
