@@ -520,12 +520,12 @@ Gemini Canvas is a powerful tool that allows you to create interactive content f
 
 ![](./images/canvas-sample.png)
 
-Here is an pre generated canvas interactive learning tool for student to explore Pythagorean theorem → [Pythaorean Playground](https://gemini.google.com/share/c6d61e7bb523)
+Here is an pre generated canvas interactive learning tool for student to explore Pythagorean theorem → [Pythagorean Playground](https://gemini.google.com/share/c6d61e7bb523)
 
 It's pre-generated with the following prompt:
 
 ```
-Greate a playground for student to explore Pythagorean theorem
+Create a playground for student to explore Pythagorean theorem
 ```
 
 # Auto Making / Grading
