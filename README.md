@@ -1,4 +1,4 @@
-# Welcome to AI in Assessment
+# AI in Math Assessment
 
 ![](./images/banner.jpg)
 
